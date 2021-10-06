@@ -1,0 +1,51 @@
+/* Couleur hexa des trois div primaires
+
+Bleu : #2574A9
+
+Violet : #9A12B3
+
+Rose: #DB0A5B
+
+*/
+
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    border: 2px groove white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+
+.title_bloc1 {
+    background-color: #2574A9;
+}
+.container_identity {
+    background-color: #2574A9;
+    margin-top: 20px;
+}
+
+.title_bloc2 {
+    background-color: #9A12B3;
+}
+.container_livraison {
+    background-color: #9A12B3;
+}
+
+.title_bloc3 {
+    background-color: #DB0A5B;
+}
+.container_infopay {
+    background-color: #DB0A5B;
+    margin-bottom: 3px;
+}
