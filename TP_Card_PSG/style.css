@@ -11,6 +11,11 @@ body {
 .logo {
     display: block; 
     margin: 20px auto;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(3);
 }
 
 .main-container {
@@ -133,4 +138,8 @@ a {
     border: 1px outset white;
     padding: 7px;
     text-decoration: none;
+}
+
+.details a:hover {
+    background-color: #dd00d2;
 }
