@@ -1,0 +1,58 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloc1{
+    background-color: #2ECC71;
+    height: 5vh;
+    width: 80%;
+}
+
+.bloc2{
+    background-color: #2980B9;
+    height: 5vh;
+    width: 20%;
+}
+
+.bloc3{
+    background-color: #E74C3C;
+    height: 20vh;
+    width: 40%;
+}
+
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.bloc4{
+    background-color: #E67E22;
+    height: 10vh;
+    width: 50%;
+}
+.bloc5{
+    background-color: #95A5A6;
+    height: 10vh;
+    width: 50%;
+}
+.bloc6{
+    background-color: #F39C12;
+    height: 10vh;
+    width: 33%;
+}
+.bloc7{
+    background-color: #16A085;
+    height: 10vh;
+    width: 33%;
+}
+.bloc8{
+    background-color: #D35400;
+    height: 10vh;
+    width: 34%;
+}
+.bloc9{
+    background-color: #2C3E50;
+    height: 20vh;
+    width: 100%;
+}

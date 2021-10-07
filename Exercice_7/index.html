@@ -10,7 +10,7 @@
 
     <body>
 
-        <form action="#" method="POST">
+        <form action="action.html" method="POST">
 
             
             <div class="container container_identity">
@@ -55,11 +55,9 @@
                 <span class="title_bloc3 absolute">Informations de réglement</span>
                 <ol>
                     <li>
-                        <label for="type_card">Type de carte bancaire :</label><br>
-                        <input type="radio" id="visa" name="visa" value="VISA">
-                        <label for="visa">VISA</label><br>
-                        <input type="radio" id="mastercard" name="mastercard" value="MASTERCARD">
-                        <label for="mastervard">Mastercard</label>
+                        <label for="number_card">Type de carte bancaire :</label><br>
+                        <input id="visa" type="radio" name="type_card" value="visa">Visa<br>
+                        <input id="mastercard" type="radio" name="type_card" value="mastercard">Mastercard<br>
                     </li>
                     <li>
                         <label for="number_card">Numéro de carte :</label>
@@ -76,9 +74,10 @@
                 </ol>
             </div>
 
+            <input type="submit" value="J'achète !">
+
         </form>
 
-        <input type="button" value="J'achète !">
 
     </body>
 </html>

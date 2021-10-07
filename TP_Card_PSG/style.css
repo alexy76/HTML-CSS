@@ -1,0 +1,136 @@
+*, html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: fixed top no-repeat url("./img/bg.jpg");
+    background-color: #dd00d2;
+}
+
+.logo {
+    display: block; 
+    margin: 20px auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.items {
+    position: relative;
+    flex-basis: 200px;
+    margin-bottom: 5%;
+    border-radius: 0px 20px 0px 25px;
+    box-shadow: rgba(240, 240, 240, 0.24) 0px 3px 8px;
+    border: 3px outset #dd00d2;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.items:hover {
+    transform: scale(1.2);
+  }
+
+.navas {
+    background-image: url("./img/navas.png");
+    background-size: 200px 300px;
+}
+
+.bappe {
+    background-image: url("./img/bappe.png");
+    background-size: 200px 300px;
+}
+
+.kean {
+    background-image: url("./img/moisekean.png");
+    background-size: 200px 300px;
+}
+
+.messi {
+    background-image: url("./img/messi.png");
+    background-size: 200px 300px;
+}
+
+.neymar {
+    background-image: url("./img/neymar.png");
+    background-size: 200px 300px;
+}
+
+.dembele {
+    background-image: url("./img/ousmanedembele.png");
+    background-size: 200px 300px;
+}
+
+.hazard {
+    background-image: url("./img/edenhazard.png");
+    background-size: 200px 300px;
+}
+
+.icardi {
+    background-image: url("./img/mauroicardi.png");
+    background-size: 200px 300px;
+}
+
+.dimaria {
+    background-image: url("./img/angeldimaria.png");
+    background-size: 200px 300px;
+}
+
+.cavani {
+    background-image: url("./img/edinsoncavani.png");
+    background-size: 200px 300px;
+}
+
+.marquinhos {
+    background-image: url("./img/marquinhos.png");
+    background-size: 200px 300px;
+}
+
+.poste {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #003F6E;
+    padding: 5px;
+    color: #003F6E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.details {
+    position: absolute;
+    bottom: 0px;
+    left:60px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background: #003F6E;
+    border-radius: 3px;
+    border: 1px outset white;
+    padding: 7px;
+    text-decoration: none;
+}

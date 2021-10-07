@@ -18,7 +18,7 @@ Rose: #DB0A5B
     position: relative;
     border: 2px groove white;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .absolute {
@@ -47,5 +47,9 @@ Rose: #DB0A5B
 }
 .container_infopay {
     background-color: #DB0A5B;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+#visa, #mastercard {
+    margin-left: 30px;
 }
